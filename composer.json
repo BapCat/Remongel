@@ -1,0 +1,24 @@
+{
+	"name": "bapcat/remongel",
+	"license": "GPLv3",
+	"homepage": "http://github.com/BapCat/Remongel",
+	"authors": [{
+			"name": "Corey Frenette",
+			"email": "corey@narwhunderful.com"
+		}
+	],
+  "minimum-stability": "dev",
+	"require": {
+		"bapcat/remodel": "dev-master.CF.scopes",
+    "bapcat/interfaces": "^1.0",
+		"jenssegers/mongodb": "^3.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^5.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"BapCat\\Remongel\\": "src/"
+		}
+	}
+}
